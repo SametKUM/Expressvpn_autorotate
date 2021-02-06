@@ -5,7 +5,7 @@ ROTATE_TIME=60 # seconds.
 public_ip() {
     WAN_IP=$(curl -s http://whatismyip.akamai.com/)
     echo "[$(date +'%H:%M:%S')] The public IP is ${WAN_IP}."
-	echo "[$(date +'%H:%M:%S')] [ProxyServer_X] The public IP is ${WAN_IP}" >> /root/usedip.log # Collects logs for used IPs 
+    echo "[$(date +'%H:%M:%S')] [ProxyServer_X] The public IP is ${WAN_IP}" >> /root/usedip.log # Collects logs for used IPs 
 }
 
 
