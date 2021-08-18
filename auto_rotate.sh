@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ROTATE_TIME=60 # seconds.
+ROTATE_TIME=30 # seconds.
 
 public_ip() {
     WAN_IP=$(curl -s http://whatismyip.akamai.com/)
